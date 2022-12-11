@@ -1,0 +1,101 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+/* clima */
+.contenedorClima{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 35%;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 8px rgba(0,0,0);
+    border-radius: 10px;
+}
+.cont1{
+    padding-bottom: 10px;
+}
+.cont2{
+    text-align: start;
+}
+.cont3{
+    padding-bottom: 2px;
+}
+.cont5{
+    text-align: start;
+}
+.nombre{
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 1.2rem;   
+}
+.fecha{
+    font-size:0.8rem;  
+}
+.cont4{
+    display: flex;
+    justify-content: space-around;
+}
+.cont6{
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    padding-right: 30px; 
+    justify-content: center;
+}
+.cont7{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.iconoC{
+    width: 40%;
+}
+.descripcion{
+    font-size: .8em;  
+}
+.tempTitulo{
+    font-size: 0.8rem;
+}
+.tempC{
+    font-size: 1.7rem;
+}
+.tempMaxMin{
+    font-size: .7rem;
+    margin-bottom: 3px;
+}
+.hr{
+    margin-bottom: 10px;
+}
+.datosC{
+    margin-bottom: 5px;
+    font-size: .8rem;
+}
+
+/* pronostico */
+.contenedorPronostico{
+    width: 35%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 8px rgba(0,0,0);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.pronostico0, .pronostico1, .pronostico2{
+    width: 25%;
+    font-size: 0.8rem;
+}
+.icono0{
+    width: 30%;
+}
+.proximashs{
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    color: rgba(0,0,0,0.9);
+    font-size: .9rem;
+}
+
+
